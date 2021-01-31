@@ -1,0 +1,29 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 19px 0px;
+
+  height: 45px;
+  border-bottom: 2px solid $third-color;
+  h1 {
+    letter-spacing: 0.04em;
+    font-weight: 550;
+    opacity: 0.53;
+  }
+  #menu_bubble {
+    background-color: $third-color;
+    opacity: 0.33;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+  }
+  nav {
+    display: none;
+  }
+}
+
+footer {
+  text-align: center;
+  font-size: 0.8em;
+  padding: 5px 0;
+}
